@@ -1,0 +1,42 @@
+{% extends 'main.html' %}
+
+{%  block content %}
+
+      <div class="container px-5">
+
+      <form class="needs-validation" novalidate="">
+
+          <h4 class="mb-3">Which food type do you prefer?</h4>
+
+          <div class="my-3">
+            <div class="form-check">
+              <input id="opt1" name="answer" type="radio" class="form-check-input" checked="" required="">
+              <label class="form-check-label" for="credit">Chinese</label>
+            </div>
+            <div class="form-check">
+              <input id="opt2" name="answer" type="radio" class="form-check-input" required="">
+              <label class="form-check-label" for="debit">Italian</label>
+            </div>
+            <div class="form-check">
+              <input id="opt3" name="answer" type="radio" class="form-check-input" required="">
+              <label class="form-check-label" for="paypal">Continental</label>
+            </div>
+              <div class="form-check">
+              <input id="opt4" name="answer" type="radio" class="form-check-input" required="">
+              <label class="form-check-label" for="paypal">None of these</label>
+            </div>
+          </div>
+
+          <hr class="my-4">
+
+          <button class="w-50 btn btn-primary" type="submit" onclick="alert('not functional yet')">Next</button>
+        </form>
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+{% endblock content %}
